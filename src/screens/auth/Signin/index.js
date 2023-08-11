@@ -8,14 +8,13 @@ import GoogleLogin from '../../../components/GoogleLogin';
 import { styles } from './styles';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
-const Signin = ({navigation}) => {
-
+const Signin = ({ navigation }) => {
     const onSignUp = () => {
-        navigation.navigate('Signup');
+        navigation.navigate('Signup')
     }
 
     const onBack = () => {
-        navigation.goBack();
+        navigation.goBack()
     }
 
     return (

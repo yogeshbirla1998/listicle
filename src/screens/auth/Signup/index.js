@@ -9,15 +9,15 @@ import GoogleLogin from '../../../components/GoogleLogin';
 import { styles } from './styles';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
-const Signup = ({navigation}) => {
+const Signup = ({ navigation }) => {
     const [checked, setChecked] = useState(false);
 
     const onSignIn = () => {
-        navigation.navigate('Signin');
+        navigation.navigate('Signin')
     }
 
     const onBack = () => {
-        navigation.goBack();
+        navigation.goBack()
     }
 
     return (

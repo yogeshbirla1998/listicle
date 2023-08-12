@@ -64,7 +64,6 @@ const Home = ({ navigation }) => {
                     keyExtractor={(item, index) => String(index)} 
                 />
             </View>
-
             <FlatList
                 style={styles.productsList}
                 numColumns={2}
